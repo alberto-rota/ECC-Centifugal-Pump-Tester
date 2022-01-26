@@ -1,0 +1,7 @@
+software/dist/*
+software/build/*
+pcb/
+data2/
+data3/
+design/
+pcb/
