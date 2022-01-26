@@ -11,7 +11,7 @@ An IR-based device for testing the compliance of ECC centrifugal pumps in terms 
 
 After downloading, copy the folder in the directory of your choice. To run the interface excecute the file `qura_pump_tester`, which opens the following window
 
-![snap](https://github.com/alberto-rota/Qura-ECC-Pump-Tester/blob/main/media/snapshot.png)
+![snap](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/blob/main/media/snapshot.png)
 
 ***
 ## How to use this Interface
@@ -29,15 +29,16 @@ The file will be saved as:
 ***
 ***
 
+<!-- 
 ## Project Overview
-The device is placed on top of the pump while it is mounted and rotating on the driver. The entity of the fluttering is measured as the distance from the 6 IR phototransistors (OPB730F) placed on the pump roof facing downward. The bell-shaped sensitivity curve of the OPB730F ([see datasheet](https://github.com/alberto-rota/Qura-ECC-Pump-Tester/blob/main/OPB730F%20Datasheet.pdf)) suggest an inverse relationship between distance and output voltage. The signals are then aquired by an ESP32 and sent to a computer in serial communication
+The device is placed on top of the pump while it is mounted and rotating on the driver. The entity of the fluttering is measured as the distance from the 6 IR phototransistors (OPB730F) placed on the pump roof facing downward. The bell-shaped sensitivity curve of the OPB730F ([see datasheet](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/OPB730F%20Datasheet.pdf)) suggest an inverse relationship between distance and output voltage. The signals are then aquired by an ESP32 and sent to a computer in serial communication
 
 The acquisition circuit is reported below:
 
-![circuit](https://github.com/alberto-rota/Qura-ECC-Pump-Tester/blob/main/media/circuit.png)
+![circuit](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/circuit.png)
 
 and it has been embedded in a custom-made PCB, which connects to the ESP32 via JST connectors.
-![pcb](https://github.com/alberto-rota/Qura-ECC-Pump-Tester/blob/main/media/pcb.png)
+![pcb](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/pcb.png)
 
 ## Compliancy assessment
 Since no evitent distinction critheria emerge from the acquired signals, an AI-based classifier has been trained by recording the signals from 51 pumps at low (100 rpm) and high (500 rpm) speed.
@@ -46,4 +47,4 @@ The model is based on a LSTM architecture. The signal is divided in 75-samples-l
 *The LSTM model is being developed further, no additonal details on the results are therefore provided*
 
 ## Design (W.I.P)
-![design](https://github.com/alberto-rota/Qura-ECC-Pump-Tester/blob/main/media/design.png)
+![design](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/design.png) -->
