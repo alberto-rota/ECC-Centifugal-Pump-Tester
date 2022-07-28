@@ -29,7 +29,6 @@ The file will be saved as:
 `C:\Users\qura\tests\DDMMYY_HHMMSS_appended.csv` [DayMonthYear_HourMinutesSeconds]
 
 ***
-***
 
 
 ## Project Overview
@@ -37,10 +36,10 @@ The device is placed on top of the pump while it is mounted and rotating on the 
 
 The acquisition circuit is reported below:
 
-![circuit](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/circuit.png)
+![circuit](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/blob/main/media/circuit.png)
 
 and it has been embedded in a custom-made PCB, which connects to the ESP32 via JST connectors.
-![pcb](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/pcb.png)
+![pcb](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/blob/main/media/pcb.png)
 
 ## Compliancy assessment
 Since no evitent distinction critheria emerge from the acquired signals, an AI-based classifier has been trained by recording the signals from 51 pumps at low (100 rpm) and high (500 rpm) speed.
@@ -49,4 +48,4 @@ The model is based on a LSTM architecture. The signal is divided in 75-samples-l
 *The LSTM model is being developed further, no additonal details on the results are therefore provided*
 
 ## Design (W.I.P)
-![design](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/design.png)
+![design](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/blob/main/media/design.png)
