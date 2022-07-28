@@ -31,7 +31,7 @@ The file will be saved as:
 ***
 ***
 
-<!-- 
+
 ## Project Overview
 The device is placed on top of the pump while it is mounted and rotating on the driver. The entity of the fluttering is measured as the distance from the 6 IR phototransistors (OPB730F) placed on the pump roof facing downward. The bell-shaped sensitivity curve of the OPB730F ([see datasheet](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/OPB730F%20Datasheet.pdf)) suggest an inverse relationship between distance and output voltage. The signals are then aquired by an ESP32 and sent to a computer in serial communication
 
@@ -49,4 +49,4 @@ The model is based on a LSTM architecture. The signal is divided in 75-samples-l
 *The LSTM model is being developed further, no additonal details on the results are therefore provided*
 
 ## Design (W.I.P)
-![design](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/design.png) -->
+![design](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/tree/main/media/design.png)
