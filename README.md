@@ -1,8 +1,13 @@
-# Qura ECC Centrifugal pump compliancy tester
+# ECC Centrifugal pump compliancy tester
 An IR-based device for testing the compliance of ECC centrifugal pumps in terms of the hemolitic/thrombogenic effects of the magnetic impeller unstable rotations. 
+Employs an LSTM classifier to distinguish proximity signals from compliant and non-compliant pumps.
+
+_This project is in collaboration with Qura s.r.l._
+
 ***
-*Active Contributors: Alberto Rota, Nicolò Pasini, Silvia Bonomi, Gaia Albani, Elisabetta Criseo, Elia Pederzani*
+* Active Contributors: **Alberto Rota**, Nicolò Pasini, Silvia Bonomi, Gaia Albani, Elisabetta Criseo
 ***
+
 ## Interface Installation
 * Windows: *Link not yet Available* 
 * Linux: *Link not yet Available*
