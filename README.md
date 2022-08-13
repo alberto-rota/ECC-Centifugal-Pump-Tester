@@ -4,8 +4,9 @@ An IR-based device for testing the compliance of ECC centrifugal pumps in terms 
 *Active Contributors: Alberto Rota, Nicolò Pasini, Silvia Bonomi, Gaia Albani, Elisabetta Criseo, Elia Pederzani*
 ***
 ## Interface Installation
-* Windows: *Link not yet Available*
+* Windows: *Link not yet Available* 
 * Linux: *Link not yet Available*
+You should ![contact the maintaining developer](mailto: alberto_rota@outlook.com) to have the links)
 
 **NOTE:** The interface embeds the ML kodel for the compliancy classification, hence at the moment it includes the whole TensorFlow framework. The size of the download is close to 1GB, but will be optimized in the future
 
