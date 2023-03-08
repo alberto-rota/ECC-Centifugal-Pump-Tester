@@ -53,5 +53,5 @@ The model is based on a LSTM architecture. The signal is divided in 75-samples-l
 
 *The LSTM model is being developed further, no additonal details on the results are therefore provided*
 
-## Design (W.I.P)
+## Prototype Design 
 ![design](https://github.com/alberto-rota/Qura-ECC-Centifugal-Pump-Tester/blob/main/media/design.png)
